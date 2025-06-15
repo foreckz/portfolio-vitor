@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Contato - Vitor Foreck</title>
+  <meta name="description" content="Entre em contato pelo formulário." />
+  <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+
+<header>
+  <nav class="navbar">
+    <div class="logo">Vitor Foreck</div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="sobre.html">Sobre</a></li>
+      <li><a href="projetos.html">Projetos</a></li>
+      <li><a href="contato.html" class="active">Contato</a></li>
+    </ul>
+    <div class="burger"><div></div><div></div><div></div></div>
+  </nav>
+</header>
+
+<main>
+  <section class="contact">
+    <h1>Entre em contato</h1>
+    <form id="contact-form" onsubmit="validateForm(event)"> 
+      <input id="nome" name="nome" type="text" placeholder="Seu nome">
+      <input id="email" name="email" type="email" placeholder="Seu e-mail">
+      <textarea id="mensagem" name="mensagem" placeholder="Seu interesse, dúvidas ou mensagens"></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+</main>
+
+<footer>
+  <p>© 2025 Vitor Foreck. Todos os direitos reservados.</p>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="script/script.js"></script>
+
+</body>
+</html>
